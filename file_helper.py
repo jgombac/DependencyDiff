@@ -1,5 +1,6 @@
 import itertools as it, glob
 from typing import List, Optional
+from test_data import *
 
 
 def get_workdir_files(workdir: str, project_dir: str, extensions: Optional[List[str]] = None) -> List[str]:
@@ -11,7 +12,5 @@ def get_workdir_files(workdir: str, project_dir: str, extensions: Optional[List[
 
 
 if __name__ == '__main__':
-    test_workdir = "A:/Development"
-    project_dir = "/PRPO/prpo-frontend"
-    files = get_workdir_files(test_workdir, project_dir, [".html", ".ts"])
+    files = get_workdir_files(test_workdir, test_project_dir, [".html", ".ts"])
     print(files)

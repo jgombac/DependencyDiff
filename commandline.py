@@ -1,6 +1,7 @@
 import subprocess
 from typing import List, Dict
 import json
+from test_data import *
 
 class SemanticException(Exception):
     def __init__(self, semantic_error: subprocess.CompletedProcess):
@@ -20,7 +21,5 @@ def run_semantic(workdir: str, filenames: List[str]) -> Dict:
     raise SemanticException(result)
 
 if __name__ == '__main__':
-    test_dir = "A:/Development"
-    test_files = ["PRPO/prpo-frontend/src/app/professor/professors/professors.component.ts", "PRPO/prpo-frontend/src/app/professor/professor-create/professor-create.component.ts"]
-    data = run_semantic(test_dir, test_files)
+    data = run_semantic(test_workdir, test_files)
     print(data)
