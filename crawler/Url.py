@@ -59,6 +59,9 @@ def get_domain(url):
     parts = urlparse(url)
     return '%s://%s' % (parts.scheme, parts.netloc)
 
+def get_domain_name(url):
+    return get_domain(url).replace("https://", "").replace("http://", "").replace(":", "")
+
 
 def clean_url(url, force_scheme=None):
     """Cleans the given URL."""

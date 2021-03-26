@@ -1,0 +1,3 @@
+{
+  "skip_xpath": ["id(\"qc-cmp2-ui\")/div[1]/div[1]/div[1]/div[1]/p[1]/button[1]", "id(\"qc-cmp2-ui\")/div[2]/div[1]/button[1]"]
+}
