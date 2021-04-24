@@ -2,6 +2,11 @@ import requests
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.expected_conditions import staleness_of
 from selenium.webdriver.support.ui import WebDriverWait
+from sqlalchemy.orm import Session
+
+from HtmlUtils import normalize_html
+from ProjectConfig import ProjectConfig
+from Database import Page, PageContent
 from Form import Form
 from Element import Element
 from scripts_helper import *
@@ -9,6 +14,7 @@ import configuration as config
 from time import sleep
 import Url
 import Utils
+from typing import List
 
 
 def Elements(browser, elements):
@@ -17,55 +23,62 @@ def Elements(browser, elements):
 def Forms(browser, forms):
     return map(lambda x: Form(browser, x), forms)
 
-class Page:
-    def __init__(self, url, visited=False):
-        self.url = url
-        self.visited = visited
-
 class Crawler:
 
-    urls = dict()
-
-    def __init__(self, url: str):
-        self.domain = Url.get_domain(url)
-        self.domain_name = Url.get_domain_name(url)
-        self.base_url = Url.clean_url(url)
-        self.urls[self.base_url] = Page(self.base_url)
+    def __init__(self, page: Page, port: str):
+        self.port = port
+        self.domain = Url.get_domain(f"{page.url}:{port}")
+        self.domain_name = Url.get_domain_name(f"{page.url}:{port}")
+        self.base_url = Url.clean_url(f"{page.url}:{port}")
         self.browser = Utils.get_chrome()
+        self.base_page = page
 
     def inject_script(self):
         self.browser.execute_script(get_injected_scripts())
 
-    def crawl(self, url):
+    def crawl(self, db: Session):
+        page = Page.get_next(db, self.base_page.commit.project.name, self.base_page.commit.hash)
+        while page:
+            self.get_page(db, page)
+            page = Page.get_next(db, self.base_page.commit.project.name, self.base_page.commit.hash)
+
+    def get_page(self, db: Session, page: Page, config: ProjectConfig):
         try:
+            url = Url.set_port(page.url, self.port)
             self.browser.get(url)
+            sleep(1)
             self.inject_script()
-            self.extract_links()
+            self.remove_repeatable_elements(config.repeatable_elements)
+            self.extract_links(db)
             content = self.browser.page_source
 
         except TimeoutException as te:
-            print(f"GET Timeout: {url}")
+            print(f"GET Timeout: {page.url}:{self.port}")
             return
 
-        self.mark_visited(url)
+        self.mark_visited(db, page)
 
         return content
 
-    def mark_visited(self, url):
-        url = self.urls.get(url)
-        if url is None:
-            self.urls[url] = Page(url, True)
-        else:
-            url.visited = True
+    def remove_repeatable_elements(self, remove_elements: List[str]):
+        for xpath in remove_elements:
+            elements = self.browser.find_elements_by_xpath(xpath)[1::] # leave first element
+            for element in elements:
+                self.browser.execute_script("""
+                    var element = arguments[0];
+                    element.parentNode.removeChild(element);
+                    """, element)
 
-    def extract_links(self):
+    def mark_visited(self, db: Session, page: Page):
+        page.visited = True
+        db.commit()
+
+    def extract_links(self, db: Session):
         initial_urls = Url.extract_urls(self.base_url, self.browser.page_source)
         links = Url.prune_urls(initial_urls, [self.domain], [])
 
         for link in links:
-            url = self.urls.get(link)
-            if url is None:
-                self.urls[link] = Page(link)
+            Page.get_or_create(db, self.base_page.commit.project.name, self.base_page.commit.hash, link.replace(f":{self.port}", ""))
 
     def event_listeners(self):
         return self.browser.execute_script(get_events_accessor())

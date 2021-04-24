@@ -62,6 +62,10 @@ def get_domain(url):
 def get_domain_name(url):
     return get_domain(url).replace("https://", "").replace("http://", "").replace(":", "")
 
+def set_port(url, port):
+    url_parts = list(urlparse(url))
+    url_parts[1] = url_parts[1] + ":" + port
+    return urlunparse(url_parts)
 
 def clean_url(url, force_scheme=None):
     """Cleans the given URL."""

@@ -1,4 +1,6 @@
 from typing import List
+
+from Compare import Compare
 import Constants
 import glob
 import os
@@ -7,6 +9,8 @@ from ProjectConfig import ProjectConfig
 from ProjectSetup import ProjectSetup
 from Git import Git, CommitPair
 from Crawler import Crawler, get_injected_scripts
+from database.Database import *
+import Url
 
 
 
@@ -21,7 +25,8 @@ class Orchestrator:
 
 
     def __init__(self):
-        pass
+        self.db = get_session()
+        truncate_db(self.db)
 
     def setup(self):
         self.set_project_config()
@@ -38,9 +43,13 @@ class Orchestrator:
     def set_project_config(self):
         self.project_config = Config.get_next_project_config()
 
+
     def set_git(self):
         self.git = Git(self.project_config)
-        self.git.clone_relevant_commits()
+        commits = self.git.clone_relevant_commits()
+        for commit in commits:
+            Commit.get_or_create(self.db, self.project_config.project_name, commit.hexsha)
+
 
     def set_versions(self):
         self.versions = self.git.get_next_commits(self.project_config)
@@ -65,18 +74,52 @@ class Orchestrator:
             self.project_config.failed_commits.append(project.tag)
 
     def set_crawlers(self):
-        self.old_crawler = Crawler(Constants.DOCKER_URL + ":" + self.old_project.port)
-        self.new_crawler = Crawler(Constants.DOCKER_URL + ":" + self.new_project.port)
+        old_page = Page.get_or_create(self.db, self.project_config.project_name, self.versions.old, Url.clean_url(Constants.DOCKER_URL))
+        new_page = Page.get_or_create(self.db, self.project_config.project_name, self.versions.new, Url.clean_url(Constants.DOCKER_URL))
+        self.old_crawler = Crawler(old_page, self.old_project.port)
+        self.new_crawler = Crawler(new_page, self.new_project.port)
+
+    def get_next_page_pair(self):
+        old_page = None
+        new_page = None
+
+        while not old_page and not new_page:
+            old_page = Page.get_next(self.db, self.project_config.project_name, self.versions.old)
+
+            if not old_page:
+                break
+
+            new_page = Page.get_next(self.db, self.project_config.project_name, self.versions.new, old_page.url)
+
+            if not new_page:
+                old_page.visited = True
+                self.db.commit()
+                old_page = None
+
+        return old_page, new_page
+
 
     def crawl(self):
-        content = self.old_crawler.crawl(self.old_crawler.domain)
-        print(content)
-        content = self.new_crawler.crawl(self.new_crawler.domain)
-        print(content)
 
+        old_page, new_page = self.get_next_page_pair()
 
+        while old_page and new_page:
 
+            print(f"Crawling {old_page.url}")
 
+            old_content = self.old_crawler.get_page(self.db, old_page, self.project_config)
+            new_content = self.new_crawler.get_page(self.db, new_page, self.project_config)
+
+            PageContent.get_or_create(self.db, self.project_config.project_name, self.versions.old, old_page.url, old_content)
+            PageContent.get_or_create(self.db, self.project_config.project_name, self.versions.new, new_page.url, new_content)
+
+            compare_result = Compare.compare(old_content, new_content)
+            element_diff = Compare.extract_differences(compare_result)
+
+            for element in element_diff:
+                Diff.get_or_create(self.db, old_page.id, new_page.id, element)
+
+            old_page, new_page = self.get_next_page_pair()
 
 
 

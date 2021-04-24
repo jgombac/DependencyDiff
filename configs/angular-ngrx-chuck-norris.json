@@ -12,5 +12,7 @@
     "COPY --from=build /usr/src/app/dist/angular-ngrx-chuck-norris /usr/share/nginx/html"
   ],
   "skip_xpath": [],
-  "forms": []
+  "forms": [],
+  "repeatable_elements": ["//app-joke-card-item"],
+  "clean_text_elements": ["//app-joke-card-item"]
 }

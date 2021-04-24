@@ -23,7 +23,7 @@ class Git:
 
         self.repo.remotes.origin.pull()
 
-    def clone_relevant_commits(self, commits: List[Commit] = None):
+    def clone_relevant_commits(self, commits: List[Commit] = None) -> List[Commit]:
         if commits is None:
             commits = self.get_relevant_commits()
 
@@ -32,6 +32,7 @@ class Git:
             if not os.path.exists(local_path):
                 repo = Repo.clone_from(self.remote, local_path)
                 repo.git.checkout(commit.hexsha)
+        return commits
 
 
     def get_relevant_commits(self) -> List[Commit]:
@@ -43,6 +44,7 @@ class Git:
 
         return relevant
 
+    # TODO: dont check i,i+1 but i,i+n
     def get_next_commits(self, config: ProjectConfig) -> CommitPair:
         relevant = self.get_relevant_commits()
         for i in range(0, len(relevant) - 1):

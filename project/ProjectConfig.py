@@ -11,6 +11,8 @@ class ProjectConfig:
         self.dockerfile: List[str] = config["dockerfile"]
         self.skip_xpath: List[str] = config["skip_xpath"]
         self.forms: List = config["forms"]
+        self.repeatable_elements: List[str] = config["repeatable_elements"]
+        self.clean_text_elements: List[str] = config["clean_text_elements"]
 
         with open(results_file, "r") as f:
             results = json.loads(f.read())
@@ -26,6 +28,8 @@ class ProjectConfig:
             "dockerfile": self.dockerfile,
             "skip_xpath": self.skip_xpath,
             "forms": self.forms,
-            "processed_commits": self.processed_commits
+            "processed_commits": self.processed_commits,
+            "repeatable_elements": self.repeatable_elements,
+            "clean_text_elements": self.clean_text_elements
         })
 
