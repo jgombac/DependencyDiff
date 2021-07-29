@@ -1,5 +1,6 @@
 {
-    "done": false,
+    "done": true,
     "processed_commits": [],
-    "failed_commits": []
+    "failed_commits": [],
+    "diffed_commits": []
 }

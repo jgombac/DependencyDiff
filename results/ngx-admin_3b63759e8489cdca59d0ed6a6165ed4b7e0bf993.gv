@@ -1,0 +1,2550 @@
+digraph NewSitemap {
+	graph [rankdir=LR]
+	page535 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/maps/searchmap</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_16.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_16.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_17.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_17.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_18.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_18.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_19.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_19.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_20.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_20.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_21.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_21.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_22.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_22.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_23.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_23.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_24.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_24.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_25.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_25.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_26.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_26.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_27.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_27.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_28.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_28.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page535 -> page532
+	page532 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_3.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_3.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_4.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_4.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_5.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_5.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_6.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_6.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_7.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_7.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_8.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_8.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_9.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_9.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_10.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_10.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_11.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_11.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_12.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_12.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_13.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_13.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_14.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_14.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_15.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_15.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page532 -> page532
+	page532 -> page535
+	page532 -> page537
+	page537 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/bootstrap.css.map</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page532 -> page539
+	page539 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/search-fields</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_29.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_29.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_30.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_30.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_31.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_31.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_32.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_32.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_33.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_33.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_34.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_34.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_35.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_35.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_36.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_36.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_37.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_37.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_38.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_38.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_39.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_39.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_40.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_40.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_41.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_41.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page539 -> page532
+	page539 -> page535
+	page539 -> page537
+	page539 -> page539
+	page539 -> page541
+	page541 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/auth/register</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page541 -> page532
+	page541 -> page537
+	page541 -> page543
+	page543 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_42.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_42.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_43.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_43.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_44.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_44.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_45.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_45.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_46.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_46.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_47.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_47.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_48.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_48.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_49.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_49.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_50.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_50.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_51.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_51.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_52.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_52.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_53.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_53.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_54.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_54.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page543 -> page532
+	page543 -> page535
+	page543 -> page537
+	page543 -> page539
+	page543 -> page541
+	page543 -> page543
+	page543 -> page545
+	page545 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/maps/bubble</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_55.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_55.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_56.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_56.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_57.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_57.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_58.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_58.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_59.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_59.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_60.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_60.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_61.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_61.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_62.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_62.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_63.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_63.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_64.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_64.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_65.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_65.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_66.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_66.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_67.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_67.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page545 -> page532
+	page545 -> page535
+	page545 -> page537
+	page545 -> page539
+	page545 -> page541
+	page545 -> page543
+	page545 -> page545
+	page545 -> page547
+	page547 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/auth/request-password</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page547 -> page537
+	page547 -> page541
+	page547 -> page563
+	page563 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/auth/login</TD></TR>
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_148.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_148.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_149.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_149.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page563 -> page532
+	page563 -> page537
+	page563 -> page541
+	page563 -> page543
+	page563 -> page547
+	page545 -> page549
+	page549 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/charts/echarts</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_68.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_68.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_69.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_69.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_70.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_70.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_71.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_71.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_72.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_72.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_73.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_73.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_74.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_74.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_75.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_75.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_76.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_76.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_77.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_77.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_78.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_78.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_79.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_79.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_80.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_80.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page549 -> page532
+	page549 -> page535
+	page549 -> page537
+	page549 -> page539
+	page549 -> page541
+	page549 -> page543
+	page549 -> page545
+	page549 -> page547
+	page549 -> page549
+	page549 -> page551
+	page551 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/charts/d3</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_81.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_81.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_82.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_82.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_83.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_83.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_84.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_84.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_85.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_85.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_86.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_86.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_87.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_87.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_88.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_88.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_89.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_89.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_90.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_90.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_91.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_91.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_92.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_92.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_93.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_93.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page551 -> page532
+	page551 -> page535
+	page551 -> page537
+	page551 -> page539
+	page551 -> page541
+	page551 -> page543
+	page551 -> page545
+	page551 -> page547
+	page551 -> page549
+	page551 -> page551
+	page551 -> page553
+	page553 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/tabs</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_94.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_94.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_95.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_95.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_96.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_96.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_97.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_97.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_98.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_98.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_99.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_99.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_100.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_100.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_101.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_101.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_102.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_102.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_103.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_103.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_104.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_104.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_105.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_105.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_106.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_106.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page553 -> page532
+	page553 -> page535
+	page553 -> page537
+	page553 -> page539
+	page553 -> page541
+	page553 -> page543
+	page553 -> page545
+	page553 -> page547
+	page553 -> page549
+	page553 -> page551
+	page553 -> page553
+	page553 -> page555
+	page555 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/maps/gmaps</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_107.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_107.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_108.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_108.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_109.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_109.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_110.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_110.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_111.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_111.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_112.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_112.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_113.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_113.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_114.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_114.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_115.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_115.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_116.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_116.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_117.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_117.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_118.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_118.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_119.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_119.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page555 -> page532
+	page555 -> page535
+	page555 -> page537
+	page555 -> page539
+	page555 -> page541
+	page555 -> page543
+	page555 -> page545
+	page555 -> page547
+	page555 -> page549
+	page555 -> page551
+	page555 -> page553
+	page555 -> page555
+	page555 -> page557
+	page557 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/components/tree</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_120.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_120.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_121.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_121.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_122.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_122.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_123.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_123.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_124.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_124.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_125.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_125.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_126.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_126.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_127.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_127.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_128.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_128.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_129.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_129.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_130.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_130.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_131.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_131.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_132.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_132.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page557 -> page532
+	page557 -> page535
+	page557 -> page537
+	page557 -> page539
+	page557 -> page541
+	page557 -> page543
+	page557 -> page545
+	page557 -> page547
+	page557 -> page549
+	page557 -> page551
+	page557 -> page553
+	page557 -> page555
+	page557 -> page557
+	page557 -> page559
+	page559 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/editors/tinymce</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_133.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_133.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_134.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_134.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_135.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_135.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_136.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_136.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_137.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_137.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_138.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_138.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_139.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_139.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_140.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_140.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_141.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_141.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_142.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_142.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_143.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_143.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_144.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_144.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_145.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_145.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_146.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_146.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_147.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_147.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page559 -> page532
+	page559 -> page535
+	page559 -> page537
+	page559 -> page539
+	page559 -> page541
+	page559 -> page543
+	page559 -> page545
+	page559 -> page547
+	page559 -> page549
+	page559 -> page551
+	page559 -> page553
+	page559 -> page555
+	page559 -> page557
+	page559 -> page559
+	page559 -> page561
+	page561 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/icons</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page561 -> page532
+	page561 -> page535
+	page561 -> page537
+	page561 -> page539
+	page561 -> page541
+	page561 -> page543
+	page561 -> page545
+	page561 -> page547
+	page561 -> page549
+	page561 -> page551
+	page561 -> page553
+	page561 -> page555
+	page561 -> page557
+	page561 -> page559
+	page561 -> page561
+	page561 -> page563
+	page561 -> page565
+	page565 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/grid</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_150.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_150.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_151.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_151.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_152.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_152.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_153.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_153.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_154.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_154.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_155.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_155.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_156.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_156.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_157.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_157.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_158.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_158.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_159.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_159.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_160.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_160.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_161.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_161.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_162.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_162.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_163.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_163.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_164.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_164.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page565 -> page532
+	page565 -> page535
+	page565 -> page537
+	page565 -> page539
+	page565 -> page541
+	page565 -> page543
+	page565 -> page545
+	page565 -> page547
+	page565 -> page549
+	page565 -> page551
+	page565 -> page553
+	page565 -> page555
+	page565 -> page557
+	page565 -> page559
+	page565 -> page561
+	page565 -> page563
+	page565 -> page565
+	page565 -> page567
+	page567 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/modals</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_165.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_165.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_166.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_166.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_167.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_167.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_168.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_168.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_169.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_169.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_170.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_170.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_171.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_171.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_172.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_172.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_173.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_173.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_174.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_174.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_175.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_175.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_176.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_176.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_177.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_177.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_178.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_178.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_179.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_179.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page567 -> page532
+	page567 -> page535
+	page567 -> page537
+	page567 -> page539
+	page567 -> page541
+	page567 -> page543
+	page567 -> page545
+	page567 -> page547
+	page567 -> page549
+	page567 -> page551
+	page567 -> page553
+	page567 -> page555
+	page567 -> page557
+	page567 -> page559
+	page567 -> page561
+	page567 -> page563
+	page567 -> page565
+	page567 -> page567
+	page567 -> page571
+	page571 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/popovers</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_180.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_180.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_181.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_181.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_182.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_182.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_183.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_183.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_184.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_184.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_185.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_185.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_186.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_186.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_187.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_187.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_188.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_188.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_189.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_189.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_190.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_190.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_191.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_191.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_192.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_192.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_193.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_193.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_194.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_194.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page571 -> page532
+	page571 -> page535
+	page571 -> page537
+	page571 -> page539
+	page571 -> page541
+	page571 -> page543
+	page571 -> page545
+	page571 -> page547
+	page571 -> page549
+	page571 -> page551
+	page571 -> page553
+	page571 -> page555
+	page571 -> page557
+	page571 -> page559
+	page571 -> page561
+	page571 -> page563
+	page571 -> page565
+	page571 -> page567
+	page571 -> page571
+	page571 -> page574
+	page574 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/charts/chartjs</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_195.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_195.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_196.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_196.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_197.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_197.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_198.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_198.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_199.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_199.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_200.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_200.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_201.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_201.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_202.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_202.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_203.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_203.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_204.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_204.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_205.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_205.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_206.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_206.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_207.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_207.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_208.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_208.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_209.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_209.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page574 -> page532
+	page574 -> page535
+	page574 -> page537
+	page574 -> page539
+	page574 -> page541
+	page574 -> page543
+	page574 -> page545
+	page574 -> page547
+	page574 -> page549
+	page574 -> page551
+	page574 -> page553
+	page574 -> page555
+	page574 -> page557
+	page574 -> page559
+	page574 -> page561
+	page574 -> page563
+	page574 -> page565
+	page574 -> page567
+	page574 -> page571
+	page574 -> page574
+	page574 -> page577
+	page577 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/auth/reset-password</TD></TR>
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_210.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_210.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_211.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_211.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page577 -> page532
+	page577 -> page537
+	page577 -> page541
+	page577 -> page543
+	page577 -> page563
+	page574 -> page583
+	page583 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/maps/leaflet</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_212.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_212.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_213.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_213.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_214.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_214.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_215.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_215.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_216.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_216.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_217.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_217.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_218.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_218.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_219.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_219.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_220.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_220.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_221.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_221.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_222.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_222.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_223.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_223.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_224.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_224.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_225.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_225.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_226.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_226.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page583 -> page532
+	page583 -> page535
+	page583 -> page537
+	page583 -> page539
+	page583 -> page541
+	page583 -> page543
+	page583 -> page545
+	page583 -> page547
+	page583 -> page549
+	page583 -> page551
+	page583 -> page553
+	page583 -> page555
+	page583 -> page557
+	page583 -> page559
+	page583 -> page561
+	page583 -> page563
+	page583 -> page565
+	page583 -> page567
+	page583 -> page571
+	page583 -> page574
+	page583 -> page577
+	page583 -> page583
+	page583 -> page585
+	page585 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/buttons</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_227.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_227.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_228.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_228.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_229.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_229.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_230.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_230.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_231.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_231.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_232.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_232.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_233.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_233.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_234.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_234.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_235.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_235.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_236.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_236.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_237.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_237.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_238.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_238.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_239.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_239.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_240.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_240.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_241.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_241.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page585 -> page532
+	page585 -> page535
+	page585 -> page537
+	page585 -> page539
+	page585 -> page541
+	page585 -> page543
+	page585 -> page545
+	page585 -> page547
+	page585 -> page549
+	page585 -> page551
+	page585 -> page553
+	page585 -> page555
+	page585 -> page557
+	page585 -> page559
+	page585 -> page561
+	page585 -> page563
+	page585 -> page565
+	page585 -> page567
+	page585 -> page571
+	page585 -> page574
+	page585 -> page577
+	page585 -> page583
+	page585 -> page585
+	page585 -> page588
+	page588 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/components/notifications</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_242.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_242.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_243.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_243.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_244.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_244.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_245.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_245.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_246.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_246.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_247.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_247.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_248.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_248.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_249.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_249.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_250.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_250.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_251.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_251.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_252.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_252.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_253.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_253.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_254.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_254.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_255.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_255.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_256.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_256.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page588 -> page532
+	page588 -> page535
+	page588 -> page537
+	page588 -> page539
+	page588 -> page541
+	page588 -> page543
+	page588 -> page545
+	page588 -> page547
+	page588 -> page549
+	page588 -> page551
+	page588 -> page553
+	page588 -> page555
+	page588 -> page557
+	page588 -> page559
+	page588 -> page561
+	page588 -> page563
+	page588 -> page565
+	page588 -> page567
+	page588 -> page571
+	page588 -> page574
+	page588 -> page577
+	page588 -> page583
+	page588 -> page585
+	page588 -> page588
+	page588 -> page591
+	page591 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/forms/layouts</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_257.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_257.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_258.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_258.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_259.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_259.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_260.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_260.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_261.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_261.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_262.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_262.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_263.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_263.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_264.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_264.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_265.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_265.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_266.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_266.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_267.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_267.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_268.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_268.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_269.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_269.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_270.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_270.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_271.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_271.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page591 -> page532
+	page591 -> page535
+	page591 -> page537
+	page591 -> page539
+	page591 -> page541
+	page591 -> page543
+	page591 -> page545
+	page591 -> page547
+	page591 -> page549
+	page591 -> page551
+	page591 -> page553
+	page591 -> page555
+	page591 -> page557
+	page591 -> page559
+	page591 -> page561
+	page591 -> page563
+	page591 -> page565
+	page591 -> page567
+	page591 -> page571
+	page591 -> page574
+	page591 -> page577
+	page591 -> page583
+	page591 -> page585
+	page591 -> page588
+	page591 -> page591
+	page591 -> page595
+	page595 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/editors/ckeditor</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_272.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_272.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_273.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_273.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[7]</TD>
+    <TD><IMG SRC="diff_old_screen_274.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_274.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_275.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_275.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[6]</TD>
+    <TD><IMG SRC="diff_old_screen_276.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_276.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_277.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_277.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_278.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_278.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_279.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_279.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[8]</TD>
+    <TD><IMG SRC="diff_old_screen_280.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_280.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_281.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_281.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_282.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_282.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_283.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_283.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_284.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_284.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_285.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_285.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_286.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_286.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_287.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_287.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_288.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_288.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[5]</TD>
+    <TD><IMG SRC="diff_old_screen_289.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_289.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[9]</TD>
+    <TD><IMG SRC="diff_old_screen_290.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_290.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_291.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_291.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page595 -> page532
+	page595 -> page535
+	page595 -> page537
+	page595 -> page539
+	page595 -> page541
+	page595 -> page543
+	page595 -> page545
+	page595 -> page547
+	page595 -> page549
+	page595 -> page551
+	page595 -> page553
+	page595 -> page555
+	page595 -> page557
+	page595 -> page559
+	page595 -> page561
+	page595 -> page563
+	page595 -> page565
+	page595 -> page567
+	page595 -> page571
+	page595 -> page574
+	page595 -> page577
+	page595 -> page583
+	page595 -> page585
+	page595 -> page588
+	page595 -> page591
+	page595 -> page595
+	page595 -> page598
+	page598 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/tables/smart-table</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_292.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_292.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_293.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_293.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[7]</TD>
+    <TD><IMG SRC="diff_old_screen_294.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_294.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_295.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_295.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[6]</TD>
+    <TD><IMG SRC="diff_old_screen_296.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_296.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_297.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_297.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_298.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_298.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_299.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_299.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[8]</TD>
+    <TD><IMG SRC="diff_old_screen_300.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_300.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_301.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_301.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_302.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_302.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_303.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_303.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_304.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_304.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_305.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_305.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_306.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_306.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_307.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_307.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_308.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_308.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[5]</TD>
+    <TD><IMG SRC="diff_old_screen_309.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_309.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[9]</TD>
+    <TD><IMG SRC="diff_old_screen_310.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_310.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_311.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_311.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page598 -> page532
+	page598 -> page535
+	page598 -> page537
+	page598 -> page539
+	page598 -> page541
+	page598 -> page543
+	page598 -> page545
+	page598 -> page547
+	page598 -> page549
+	page598 -> page551
+	page598 -> page553
+	page598 -> page555
+	page598 -> page557
+	page598 -> page559
+	page598 -> page561
+	page598 -> page563
+	page598 -> page565
+	page598 -> page567
+	page598 -> page571
+	page598 -> page574
+	page598 -> page577
+	page598 -> page583
+	page598 -> page585
+	page598 -> page588
+	page598 -> page591
+	page598 -> page595
+	page598 -> page598
+	page598 -> page601
+	page601 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/forms/inputs</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_312.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_312.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_313.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_313.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[7]</TD>
+    <TD><IMG SRC="diff_old_screen_314.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_314.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_315.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_315.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[6]</TD>
+    <TD><IMG SRC="diff_old_screen_316.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_316.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_317.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_317.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_318.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_318.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_319.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_319.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[8]</TD>
+    <TD><IMG SRC="diff_old_screen_320.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_320.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_321.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_321.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_322.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_322.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_323.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_323.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_324.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_324.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_325.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_325.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_326.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_326.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_327.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_327.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_328.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_328.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[5]</TD>
+    <TD><IMG SRC="diff_old_screen_329.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_329.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[9]</TD>
+    <TD><IMG SRC="diff_old_screen_330.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_330.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_331.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_331.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page601 -> page532
+	page601 -> page535
+	page601 -> page537
+	page601 -> page539
+	page601 -> page541
+	page601 -> page543
+	page601 -> page545
+	page601 -> page547
+	page601 -> page549
+	page601 -> page551
+	page601 -> page553
+	page601 -> page555
+	page601 -> page557
+	page601 -> page559
+	page601 -> page561
+	page601 -> page563
+	page601 -> page565
+	page601 -> page567
+	page601 -> page571
+	page601 -> page574
+	page601 -> page577
+	page601 -> page583
+	page601 -> page585
+	page601 -> page588
+	page601 -> page591
+	page601 -> page595
+	page601 -> page598
+	page601 -> page601
+	page601 -> page604
+	page604 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/dashboard</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_332.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_332.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_333.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_333.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[7]</TD>
+    <TD><IMG SRC="diff_old_screen_334.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_334.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_335.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_335.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[6]</TD>
+    <TD><IMG SRC="diff_old_screen_336.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_336.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_337.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_337.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_338.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_338.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_339.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_339.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[8]</TD>
+    <TD><IMG SRC="diff_old_screen_340.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_340.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_341.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_341.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_342.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_342.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_343.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_343.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_344.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_344.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_345.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_345.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_346.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_346.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_347.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_347.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_348.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_348.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[5]</TD>
+    <TD><IMG SRC="diff_old_screen_349.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_349.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[9]</TD>
+    <TD><IMG SRC="diff_old_screen_350.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_350.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_351.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_351.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page604 -> page532
+	page604 -> page535
+	page604 -> page537
+	page604 -> page539
+	page604 -> page541
+	page604 -> page543
+	page604 -> page545
+	page604 -> page547
+	page604 -> page549
+	page604 -> page551
+	page604 -> page553
+	page604 -> page555
+	page604 -> page557
+	page604 -> page559
+	page604 -> page561
+	page604 -> page563
+	page604 -> page565
+	page604 -> page567
+	page604 -> page571
+	page604 -> page574
+	page604 -> page577
+	page604 -> page580
+	page580 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/png;base64,iVBORw0KGgo
+AAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAAA1BMVEUAAACne
+j3aAAAAAXRSTlMAQObYZgAAACJJREFUaN7twTEBAAAAwiD7pzb
+FPmAAAAAAAAAAAAAAAGQOLbQAAU3zwM4AAAAASUVORK5CYII=</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page604 -> page583
+	page604 -> page585
+	page604 -> page588
+	page604 -> page591
+	page604 -> page595
+	page604 -> page598
+	page604 -> page601
+	page604 -> page604
+	page604 -> page607
+	page607 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/ui-features/typography</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_352.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_352.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_353.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_353.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[7]</TD>
+    <TD><IMG SRC="diff_old_screen_354.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_354.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_355.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_355.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[6]</TD>
+    <TD><IMG SRC="diff_old_screen_356.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_356.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_357.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_357.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_358.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_358.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_359.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_359.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[8]</TD>
+    <TD><IMG SRC="diff_old_screen_360.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_360.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_361.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_361.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_362.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_362.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_363.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_363.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_364.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_364.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_365.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_365.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_366.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_366.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_367.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_367.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_368.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_368.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[5]</TD>
+    <TD><IMG SRC="diff_old_screen_369.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_369.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[9]</TD>
+    <TD><IMG SRC="diff_old_screen_370.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_370.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_371.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_371.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page607 -> page532
+	page607 -> page535
+	page607 -> page537
+	page607 -> page539
+	page607 -> page541
+	page607 -> page543
+	page607 -> page545
+	page607 -> page547
+	page607 -> page549
+	page607 -> page551
+	page607 -> page553
+	page607 -> page555
+	page607 -> page557
+	page607 -> page559
+	page607 -> page561
+	page607 -> page563
+	page607 -> page565
+	page607 -> page567
+	page607 -> page571
+	page607 -> page574
+	page607 -> page577
+	page607 -> page583
+	page607 -> page585
+	page607 -> page588
+	page607 -> page591
+	page607 -> page595
+	page607 -> page598
+	page607 -> page601
+	page607 -> page604
+	page607 -> page607
+	page607 -> page610
+	page610 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/#/pages/miscellaneous/404</TD></TR>
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_372.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_372.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[1]</TD>
+    <TD><IMG SRC="diff_old_screen_373.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_373.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[7]</TD>
+    <TD><IMG SRC="diff_old_screen_374.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_374.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[1]</TD>
+    <TD><IMG SRC="diff_old_screen_375.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_375.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[6]</TD>
+    <TD><IMG SRC="diff_old_screen_376.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_376.png"/></TD></TR>
+    
+    <TR><TD>/html/head</TD>
+    <TD><IMG SRC="diff_old_screen_377.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_377.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-theme-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_378.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_378.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div/ngx-layout-direction-switcher</TD>
+    <TD><IMG SRC="diff_old_screen_379.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_379.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[8]</TD>
+    <TD><IMG SRC="diff_old_screen_380.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_380.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[3]</TD>
+    <TD><IMG SRC="diff_old_screen_381.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_381.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[4]</TD>
+    <TD><IMG SRC="diff_old_screen_382.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_382.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[4]</TD>
+    <TD><IMG SRC="diff_old_screen_383.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_383.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[2]</TD>
+    <TD><IMG SRC="diff_old_screen_384.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_384.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions/nb-action[5]</TD>
+    <TD><IMG SRC="diff_old_screen_385.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_385.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div/nb-sidebar[2]</TD>
+    <TD><IMG SRC="diff_old_screen_386.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_386.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/div</TD>
+    <TD><IMG SRC="diff_old_screen_387.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_387.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/nb-layout-header/nav/ngx-header/nb-actions</TD>
+    <TD><IMG SRC="diff_old_screen_388.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_388.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[5]</TD>
+    <TD><IMG SRC="diff_old_screen_389.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_389.png"/></TD></TR>
+    
+    <TR><TD>/html/head/link[9]</TD>
+    <TD><IMG SRC="diff_old_screen_390.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_390.png"/></TD></TR>
+    
+    <TR><TD>/html/body/ngx-app/ngx-pages/ngx-sample-layout/nb-layout/div/div/div</TD>
+    <TD><IMG SRC="diff_old_screen_391.png"/></TD>
+    <TD><IMG SRC="diff_new_screen_391.png"/></TD></TR>
+    </TABLE>> margin=0 shape=rectangle]
+	page610 -> page532
+	page610 -> page535
+	page610 -> page537
+	page610 -> page539
+	page610 -> page541
+	page610 -> page543
+	page610 -> page545
+	page610 -> page547
+	page610 -> page549
+	page610 -> page551
+	page610 -> page553
+	page610 -> page555
+	page610 -> page557
+	page610 -> page559
+	page610 -> page561
+	page610 -> page563
+	page610 -> page565
+	page610 -> page567
+	page610 -> page571
+	page610 -> page574
+	page610 -> page577
+	page610 -> page583
+	page610 -> page585
+	page610 -> page588
+	page610 -> page591
+	page610 -> page595
+	page610 -> page598
+	page610 -> page601
+	page610 -> page604
+	page610 -> page607
+	page610 -> page610
+	page610 -> page664
+	page664 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/filter.component.css.map</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page610 -> page667
+	page667 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/ng2-smart-table.component.css.map</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page610 -> page670
+	page670 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/pager.component.css.map</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page610 -> page673
+	page673 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/tbody.component.css.map</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page610 -> page676
+	page676 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/title.component.css.map</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page607 -> page664
+	page607 -> page667
+	page607 -> page670
+	page607 -> page673
+	page607 -> page676
+	page604 -> page610
+	page604 -> page664
+	page604 -> page667
+	page604 -> page670
+	page604 -> page673
+	page604 -> page676
+	page601 -> page607
+	page601 -> page610
+	page601 -> page664
+	page601 -> page667
+	page601 -> page670
+	page601 -> page673
+	page601 -> page676
+	page598 -> page604
+	page598 -> page607
+	page598 -> page610
+	page598 -> page664
+	page598 -> page667
+	page598 -> page670
+	page598 -> page673
+	page598 -> page676
+	page595 -> page601
+	page595 -> page604
+	page595 -> page607
+	page595 -> page610
+	page595 -> page661
+	page661 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/javascript:void(</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page591 -> page598
+	page591 -> page601
+	page591 -> page604
+	page591 -> page607
+	page591 -> page610
+	page588 -> page595
+	page588 -> page598
+	page588 -> page601
+	page588 -> page604
+	page588 -> page607
+	page588 -> page610
+	page585 -> page591
+	page585 -> page595
+	page585 -> page598
+	page585 -> page601
+	page585 -> page604
+	page585 -> page607
+	page585 -> page610
+	page583 -> page588
+	page583 -> page591
+	page583 -> page595
+	page583 -> page598
+	page583 -> page601
+	page583 -> page604
+	page583 -> page607
+	page583 -> page610
+	page574 -> page585
+	page574 -> page588
+	page574 -> page591
+	page574 -> page595
+	page574 -> page598
+	page574 -> page601
+	page574 -> page604
+	page574 -> page607
+	page574 -> page610
+	page571 -> page577
+	page571 -> page583
+	page571 -> page585
+	page571 -> page588
+	page571 -> page591
+	page571 -> page595
+	page571 -> page598
+	page571 -> page601
+	page571 -> page604
+	page571 -> page607
+	page571 -> page610
+	page567 -> page574
+	page567 -> page577
+	page567 -> page583
+	page567 -> page585
+	page567 -> page588
+	page567 -> page591
+	page567 -> page595
+	page567 -> page598
+	page567 -> page601
+	page567 -> page604
+	page567 -> page607
+	page567 -> page610
+	page565 -> page571
+	page565 -> page574
+	page565 -> page577
+	page565 -> page583
+	page565 -> page585
+	page565 -> page588
+	page565 -> page591
+	page565 -> page595
+	page565 -> page598
+	page565 -> page601
+	page565 -> page604
+	page565 -> page607
+	page565 -> page610
+	page561 -> page567
+	page561 -> page571
+	page561 -> page574
+	page561 -> page577
+	page561 -> page583
+	page561 -> page585
+	page561 -> page588
+	page561 -> page591
+	page561 -> page595
+	page561 -> page598
+	page561 -> page601
+	page561 -> page604
+	page561 -> page607
+	page561 -> page610
+	page559 -> page563
+	page559 -> page565
+	page559 -> page567
+	page559 -> page571
+	page559 -> page574
+	page559 -> page577
+	page559 -> page583
+	page559 -> page585
+	page559 -> page588
+	page559 -> page591
+	page559 -> page595
+	page559 -> page598
+	page559 -> page601
+	page559 -> page604
+	page559 -> page607
+	page559 -> page610
+	page559 -> page658
+	page658 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/javascript:""</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page557 -> page561
+	page557 -> page563
+	page557 -> page565
+	page557 -> page567
+	page557 -> page571
+	page557 -> page574
+	page557 -> page577
+	page557 -> page583
+	page557 -> page585
+	page557 -> page588
+	page557 -> page591
+	page557 -> page595
+	page557 -> page598
+	page557 -> page601
+	page557 -> page604
+	page557 -> page607
+	page557 -> page610
+	page555 -> page559
+	page555 -> page561
+	page555 -> page563
+	page555 -> page565
+	page555 -> page567
+	page555 -> page571
+	page555 -> page574
+	page555 -> page577
+	page555 -> page583
+	page555 -> page585
+	page555 -> page588
+	page555 -> page591
+	page555 -> page595
+	page555 -> page598
+	page555 -> page601
+	page555 -> page604
+	page555 -> page607
+	page555 -> page610
+	page555 -> page629
+	page629 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D
+%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C
+0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C
+18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2F
+svg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page631
+	page631 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22
+%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2
+C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2
+V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2
+Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page633
+	page633 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2224px%22%20height%3D%2224px%22%20viewBox%3
+D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E
+%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%2
+05%2012%2010.59%206.41%205%205%206.41%2010.59%2012
+%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019
+%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%2
+0%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22n
+one%22%2F%3E%0A%3C%2Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page637
+	page637 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D
+%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C
+0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C
+18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2F
+svg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page640
+	page640 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22
+%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C
+%2Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page642
+	page642 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22
+%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C
+%2Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page644
+	page644 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D
+%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C
+0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C
+18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2F
+svg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page647
+	page647 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22
+%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2
+C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2
+V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2
+Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page650
+	page650 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22
+%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2
+C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2
+V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2
+Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page555 -> page654
+	page654 [label=<<TABLE cellspacing="0"><TR><TD>http://localhost/data:image/svg+xml,%3Csvg%20xmlns
+%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20wi
+dth%3D%2218%22%20height%3D%2218%22%20viewBox%3D%22
+0%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22
+%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C
+%2Fsvg%3E%0A</TD></TR></TABLE>> margin=0 shape=rectangle]
+	page553 -> page557
+	page553 -> page559
+	page553 -> page561
+	page553 -> page563
+	page553 -> page565
+	page553 -> page567
+	page553 -> page571
+	page553 -> page574
+	page553 -> page577
+	page553 -> page583
+	page553 -> page585
+	page553 -> page588
+	page553 -> page591
+	page553 -> page595
+	page553 -> page598
+	page553 -> page601
+	page553 -> page604
+	page553 -> page607
+	page553 -> page610
+	page551 -> page555
+	page551 -> page557
+	page551 -> page559
+	page551 -> page561
+	page551 -> page563
+	page551 -> page565
+	page551 -> page567
+	page551 -> page571
+	page551 -> page574
+	page551 -> page577
+	page551 -> page583
+	page551 -> page585
+	page551 -> page588
+	page551 -> page591
+	page551 -> page595
+	page551 -> page598
+	page551 -> page601
+	page551 -> page604
+	page551 -> page607
+	page551 -> page610
+	page549 -> page553
+	page549 -> page555
+	page549 -> page557
+	page549 -> page559
+	page549 -> page561
+	page549 -> page563
+	page549 -> page565
+	page549 -> page567
+	page549 -> page571
+	page549 -> page574
+	page549 -> page577
+	page549 -> page583
+	page549 -> page585
+	page549 -> page588
+	page549 -> page591
+	page549 -> page595
+	page549 -> page598
+	page549 -> page601
+	page549 -> page604
+	page549 -> page607
+	page549 -> page610
+	page545 -> page551
+	page545 -> page553
+	page545 -> page555
+	page545 -> page557
+	page545 -> page559
+	page545 -> page561
+	page545 -> page563
+	page545 -> page565
+	page545 -> page567
+	page545 -> page571
+	page545 -> page574
+	page545 -> page577
+	page545 -> page583
+	page545 -> page585
+	page545 -> page588
+	page545 -> page591
+	page545 -> page595
+	page545 -> page598
+	page545 -> page601
+	page545 -> page604
+	page545 -> page607
+	page545 -> page610
+	page543 -> page547
+	page543 -> page549
+	page543 -> page551
+	page543 -> page553
+	page543 -> page555
+	page543 -> page557
+	page543 -> page559
+	page543 -> page561
+	page543 -> page563
+	page543 -> page565
+	page543 -> page567
+	page543 -> page571
+	page543 -> page574
+	page543 -> page577
+	page543 -> page580
+	page543 -> page583
+	page543 -> page585
+	page543 -> page588
+	page543 -> page591
+	page543 -> page595
+	page543 -> page598
+	page543 -> page601
+	page543 -> page604
+	page543 -> page607
+	page543 -> page610
+	page541 -> page563
+	page539 -> page543
+	page539 -> page545
+	page539 -> page547
+	page539 -> page549
+	page539 -> page551
+	page539 -> page553
+	page539 -> page555
+	page539 -> page557
+	page539 -> page559
+	page539 -> page561
+	page539 -> page563
+	page539 -> page565
+	page539 -> page567
+	page539 -> page571
+	page539 -> page574
+	page539 -> page577
+	page539 -> page583
+	page539 -> page585
+	page539 -> page588
+	page539 -> page591
+	page539 -> page595
+	page539 -> page598
+	page539 -> page601
+	page539 -> page604
+	page539 -> page607
+	page539 -> page610
+	page532 -> page541
+	page532 -> page543
+	page532 -> page545
+	page532 -> page547
+	page532 -> page549
+	page532 -> page551
+	page532 -> page553
+	page532 -> page555
+	page532 -> page557
+	page532 -> page559
+	page532 -> page561
+	page532 -> page563
+	page532 -> page565
+	page532 -> page567
+	page532 -> page571
+	page532 -> page574
+	page532 -> page577
+	page532 -> page580
+	page532 -> page583
+	page532 -> page585
+	page532 -> page588
+	page532 -> page591
+	page532 -> page595
+	page532 -> page598
+	page532 -> page601
+	page532 -> page604
+	page532 -> page607
+	page532 -> page610
+	page535 -> page535
+	page535 -> page537
+	page535 -> page539
+	page535 -> page541
+	page535 -> page543
+	page535 -> page545
+	page535 -> page547
+	page535 -> page549
+	page535 -> page551
+	page535 -> page553
+	page535 -> page555
+	page535 -> page557
+	page535 -> page559
+	page535 -> page561
+	page535 -> page563
+	page535 -> page565
+	page535 -> page567
+	page535 -> page571
+	page535 -> page574
+	page535 -> page577
+	page535 -> page583
+	page535 -> page585
+	page535 -> page588
+	page535 -> page591
+	page535 -> page595
+	page535 -> page598
+	page535 -> page601
+	page535 -> page604
+	page535 -> page607
+	page535 -> page610
+	page535 -> page629
+	page535 -> page631
+	page535 -> page633
+	page535 -> page637
+	page535 -> page640
+	page535 -> page642
+	page535 -> page644
+	page535 -> page647
+	page535 -> page650
+	page535 -> page654
+}

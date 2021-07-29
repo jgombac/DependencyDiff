@@ -1,0 +1,32 @@
+<div class="container">
+
+  <div class="d-flex">
+    <div class="checkbox checkbox-primary p-3" *ngIf="pages.length > 0">
+      <label>
+        <input type="checkbox" [checked]="showLinks" (click)="toggleLinks()">
+        <span>Povezave</span>
+      </label>
+    </div>
+    <div class="checkbox checkbox-primary p-3" *ngIf="pages.length > 0">
+      <label>
+        <input type="checkbox" [checked]="diffsOnly" (click)="toggleDiffsOnly()">
+        <span>Brez sprememb</span>
+      </label>
+    </div>
+  </div>
+  <ngx-graph class="chart-container" [showMiniMap]="true" [nodes]="displayPages" [links]="displayLinks"
+    [center$]="center$" [zoomToFit$]="zoomToFit$">
+    <ng-template #nodeTemplate let-node>
+      <svg:g class="node" (click)="selectNode(node)">
+        <svg:rect [attr.width]="node.label.length * 9.6" [attr.height]="30" [attr.fill]="node.color" stroke="grey"
+          [attr.stroke-width]="0.5" />
+        <svg:text alignment-baseline="central" [attr.x]="10" [attr.y]="15">
+          {{node.disabled ? '' : node.diffs + ':'}} {{node.label}}
+        </svg:text>
+      </svg:g>
+    </ng-template>
+  </ngx-graph>
+
+  <app-page *ngIf="selectedPage != null" [page]="selectedPage" (closePage)="closePage($event)"></app-page>
+
+</div>

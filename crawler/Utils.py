@@ -20,10 +20,12 @@ def get_firefox():
     browser.set_page_load_timeout(6)
     return browser
 
-def get_chrome():
+def get_chrome(headless=True):
     caps = DesiredCapabilities().CHROME
     options = ChromeOptions()
     caps["pageLoadStrategy"] = "eager"
+    if headless:
+        options.add_argument("--headless")
     browser = Chrome(desired_capabilities=caps, chrome_options=options, executable_path="A:/WebDrivers/chromedriver.exe")
     browser.set_page_load_timeout(20)
     browser.set_script_timeout(4)

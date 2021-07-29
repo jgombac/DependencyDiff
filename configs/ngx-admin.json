@@ -1,0 +1,31 @@
+{
+  "project_name": "ngx-admin",
+  "repository": "https://github.com/akveo/ngx-admin",
+  "first_commit": "06d2197583c596215ccc2d539a7e9548f6a3d5ba",
+  "use_hash": true,
+  "min_changes": 30,
+  "dockerfile": [
+    "FROM node:10.13.0-alpine AS build",
+    "WORKDIR /usr/src",
+    "COPY package*.json ./",
+    "RUN npm install",
+    "COPY . .",
+    "RUN npm run build",
+    "FROM nginx:1.17.1-alpine",
+    "COPY --from=build /usr/src/dist /usr/share/nginx/html"
+  ],
+  "wait_until_clickable": "//a",
+  "skip_xpath": [],
+  "forms": [
+    {
+      "xpath": "//BODY/ngx-app[1]/nb-auth[1]/nb-layout[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nb-layout-column[1]/nb-card[1]/nb-card-body[1]/div[1]/nb-login[1]/nb-auth-block[1]/form[1]",
+      "elements": {
+        "//*[@id=\"input-email\"]": "name.surname@email.com",
+        "//*[@id=\"input-password\"]": "password"
+      },
+      "submit": ""
+    }
+  ],
+  "repeatable_elements": [],
+  "clean_text_elements": []
+}

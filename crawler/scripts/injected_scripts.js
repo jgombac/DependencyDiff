@@ -43,10 +43,12 @@
 //    target.prototype.removeEventListener = mRemoveEventListener;
   }
 
-  overrideEventListener(EventTarget);
+  if (window.customListeners == undefined || !window.customListeners) {
+    overrideEventListener(EventTarget);
+  }
   //overrideEventListener(Element);
   //overrideEventListener(Document);
   //overrideEventListener(window);
 
-
+  window.customListeners = true;
 })();

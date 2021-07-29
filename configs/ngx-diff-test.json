@@ -1,0 +1,24 @@
+{
+  "project_name": "ngx-diff-test",
+  "repository": "https://github.com/jgombac/ngx-diff-test",
+  "first_commit": "18daaecebf9bfa23fa147cb26d65f2100b679acf",
+  "min_changes": 0,
+  "use_hash": true,
+  "dockerfile": [
+    "FROM node:10.13.0-alpine AS build",
+    "WORKDIR /usr/src",
+    "COPY package*.json ./",
+    "RUN npm install",
+    "COPY . .",
+    "RUN npm run build",
+    "FROM nginx:1.17.1-alpine",
+    "COPY --from=build /usr/src/dist/ngx-diff-test /usr/share/nginx/html"
+  ],
+  "wait_until_clickable": "//a",
+  "skip_xpath": [],
+  "forms": [
+  ],
+  "repeatable_elements": [],
+  "clean_text_elements": [],
+  "leave_repeatable": 0
+}

@@ -1,0 +1,17 @@
+{
+  "diffed_commits": [
+    "0027c8bebb0fa27e5edf306455382bb2bce13ab9",
+    "cff4645c068adcc2161e9ef35bf261589f621d7a",
+    "c40d7174068ae4d4ea2d94b7699c056081a4c058",
+    "5c39da75bf1be03ba16f5e43f81955206fffdbc3"
+  ],
+  "done": true,
+  "failed_commits": [],
+  "processed_commits": [
+    "0027c8bebb0fa27e5edf306455382bb2bce13ab9",
+    "cff4645c068adcc2161e9ef35bf261589f621d7a",
+    "5c39da75bf1be03ba16f5e43f81955206fffdbc3",
+    "c40d7174068ae4d4ea2d94b7699c056081a4c058",
+    "ea1303de17a62c93f20b0bfeea12c9e3637aeb13"
+  ]
+}

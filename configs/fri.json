@@ -1,0 +1,15 @@
+{
+  "project_name": "fri.uni-lj.si",
+  "repository": "",
+  "first_commit": "",
+  "min_changes": 0,
+  "use_hash": false,
+  "dockerfile": [],
+  "wait_until_clickable": "//*[@id=\"wm-ipp-base\"]",
+  "skip_xpath": [],
+  "forms": [
+  ],
+  "repeatable_elements": ["//*[@id=\"wm-ipp-base\"]"],
+  "leave_repeatable": 0,
+  "clean_text_elements": []
+}

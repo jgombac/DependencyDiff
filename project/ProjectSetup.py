@@ -51,6 +51,9 @@ class ProjectSetup:
         result = run_cmd(cmd)
         if result.returncode == 0:
             return True
+        print()
+        run_ps("docker rm -v $(docker ps -aq -f 'status=exited')")
+        run_ps("docker rmi $(docker images -aq -f 'dangling=true')")
         return False
 
     def run_container(self) -> bool:
@@ -75,8 +78,8 @@ class ProjectSetup:
 
     def prepare_docker_file(self):
         destination = os.path.join(self.project_dir, "Dockerfile")
-        if os.path.exists(destination):
-            return
+        # if os.path.exists(destination):
+        #     return
         with open(destination, "w+") as f:
             for line in self.dockerfile:
                 f.write(line + "\n")

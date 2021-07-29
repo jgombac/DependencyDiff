@@ -1,0 +1,43 @@
+.element {
+  font-weight: 500;
+}
+
+pre {
+  white-space: break-spaces;
+}
+
+.images-container {
+  display: flex;
+}
+
+.images-container > div {
+  margin: 10px 20px;
+}
+
+.images-container > div > img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.diff-image-container {
+  position: relative;
+}
+
+.diff-image {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  max-height: 300px;
+  /* filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='srgb'><feColorMatrix color-interpolation-filters='srgb' in='SourceGraphic' type='matrix' values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 0 0.5'/></filter></svg>#invert");
+  -webkit-filter: invert(100%) opacity(50%); */
+}
+
+.diff-image:nth-child(2) {
+  mix-blend-mode: difference;
+}
+
+.text-center {
+  text-align: center;
+}

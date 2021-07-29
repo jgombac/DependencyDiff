@@ -7,31 +7,43 @@ class Compare:
 
     @staticmethod
     def compare(old: str, new: str) -> str:
-        old, new = Compare.preprocess(old, new)
+        try:
+            old, new = Compare.preprocess(old, new)
 
-        result = diff(old, new, cutoff=0.5, pretty=True)
+            result = diff(old, new, cutoff=0.9, pretty=True)
 
-        result = normalize_html(result)
+            result = normalize_html(result)
 
-        # remove all <del>
-        for tag in result(["del"]):
-            tag.extract()
+            # remove all <del>
+            for tag in result(["del"]):
+                tag.parent["diff-deleted"] = True
+                tag.extract()
 
-        # mark all <ins> with attribute
-        for tag in result(["ins"]):
-            for child in tag.find_all(recursive=False):
-                child["diff-changed"] = "True"
-            tag.replaceWithChildren()
+            #result = normalize_html(result.prettify())
 
-        # replace custom <text-node> with its text and mark parent changed
-        for tag in result(["text-node"]):
-            if tag.has_attr("diff-changed"):
-                tag.parent["diff-text-changed"] = tag["diff-changed"]
-            tag.replaceWith(tag["text-value"])
+            # mark all <ins> with attribute
+            for tag in result(["ins"]):
+                for child in tag.find_all(recursive=False):
+                    child["diff-changed"] = "True"
+                tag.replaceWithChildren()
 
-        Compare.set_style(result)
+            #result = normalize_html(result.prettify())
 
-        return result.prettify()
+            # replace custom <text-node> with its text and mark parent changed
+            for tag in result(["text-node"]):
+                if tag.has_attr("diff-changed"):
+                    tag.parent["diff-text-changed"] = tag["diff-changed"]
+                tag.replaceWith(tag["text-value"])
+
+            #result = normalize_html(result.prettify())
+
+            #Compare.set_style(result)
+
+            return result.prettify()
+        except RecursionError as re:
+            print(re)
+        except Exception as ex:
+            print(ex)
 
     @staticmethod
     def extract_differences(html: str) -> List[str]:
@@ -39,7 +51,11 @@ class Compare:
         soup = normalize_html(html)
         for element in soup.find_all(attrs={"diff-changed": "True"}):
             xpaths.append(get_xpath(element))
-        return xpaths
+        for element in soup.find_all(attrs={"diff-deleted": "True"}):
+            xpaths.append(get_xpath(element))
+        for element in soup.find_all(attrs={"diff-text-changed": "True"}):
+            xpaths.append(get_xpath(element))
+        return list(set(xpaths))
 
     @staticmethod
     def set_style(html: BeautifulSoup):

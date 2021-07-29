@@ -33,6 +33,9 @@ class Orchestrator:
         self.set_git()
         self.set_versions()
 
+        if self.versions is None:
+            return
+
         build = self.build_projects()
         while not build:
             self.set_versions()
@@ -54,13 +57,17 @@ class Orchestrator:
     def set_versions(self):
         self.versions = self.git.get_next_commits(self.project_config)
 
+
     def build_projects(self) -> bool:
         self.old_project = self.deploy_version(self.versions.old)
         if self.old_project is None:
             return False
+
         self.new_project = self.deploy_version(self.versions.new)
         if self.new_project is None:
             return False
+
+        self.project_config.commit_success(self.versions.old)
         return True
 
     def deploy_version(self, version: str) -> ProjectSetup:
@@ -71,7 +78,7 @@ class Orchestrator:
             return project
         else:
             print("Failed deploying version", project.tag)
-            self.project_config.failed_commits.append(project.tag)
+            self.project_config.commit_failed(project.tag)
 
     def set_crawlers(self):
         old_page = Page.get_or_create(self.db, self.project_config.project_name, self.versions.old, Url.clean_url(Constants.DOCKER_URL))
@@ -114,10 +121,14 @@ class Orchestrator:
             PageContent.get_or_create(self.db, self.project_config.project_name, self.versions.new, new_page.url, new_content)
 
             compare_result = Compare.compare(old_content, new_content)
+            PageDiff.get_or_create(self.db, old_page.id, new_page.id, compare_result)
+
             element_diff = Compare.extract_differences(compare_result)
 
             for element in element_diff:
-                Diff.get_or_create(self.db, old_page.id, new_page.id, element)
+                old_screenshot = self.old_crawler.screenshot(element)
+                new_screenshot = self.new_crawler.screenshot(element)
+                Diff.get_or_create(self.db, old_page.id, new_page.id, element, old_screenshot, new_screenshot)
 
             old_page, new_page = self.get_next_page_pair()
 

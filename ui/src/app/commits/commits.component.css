@@ -1,0 +1,20 @@
+.commits {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  cursor: pointer;
+  margin: .5rem;
+  border: 1px solid #747475;
+}
+
+li>span {
+  display: block;
+  height: 100%;
+  padding: 1rem;
+}
+
+.is-selected {
+  background-color: #7AA3E5;
+}

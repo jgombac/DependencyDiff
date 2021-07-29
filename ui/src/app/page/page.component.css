@@ -1,0 +1,13 @@
+.diff-container {
+  margin: 15px 0px;
+  border-bottom: 1px solid #7c7c7c;
+}
+
+.header {
+  background-color: #7aa3e5;
+}
+
+.element {
+  background: #7aa3e5;
+  font-weight: 500;
+}

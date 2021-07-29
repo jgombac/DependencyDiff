@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+app-commits,
+app-projects {
+  width: 400px;
+}
+
+app-sitemap {
+  flex-grow: 1;
+}

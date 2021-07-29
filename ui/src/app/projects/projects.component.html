@@ -1,0 +1,6 @@
+<ul class="projects">
+  <li *ngFor="let project of projects; index as i" (click)="select(project)">
+    <span [ngClass]="{'is-selected': isSelected(project)}">{{project.name}}</span>
+    <app-commits *ngIf="isSelected(project)" [commits]="commits" (commitSelected)="getPages($event)"></app-commits>
+  </li>
+</ul>

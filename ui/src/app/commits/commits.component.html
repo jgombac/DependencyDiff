@@ -1,0 +1,5 @@
+<ul class="commits">
+  <li *ngFor="let commit of commits; index as i" (click)="select(commit)">
+    <span [ngClass]="{'is-selected': isSelected(commit)}">{{commit.hash}}</span>
+  </li>
+</ul>

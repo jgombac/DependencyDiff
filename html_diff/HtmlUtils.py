@@ -3,24 +3,36 @@ from lxml import etree, html as h
 import re
 from typing import Tuple
 
-def normalize_angular(html: str) -> str:
+def normalize_angular(html: str, remove_comments = False) -> str:
     # \_ng(host(.+?)|content(.+?))(\s|\>)
     # "(?!\[)\_ng(host(.+?)|content([^\]]+?))([^\]\s\>])*"
     html = re.sub("(?!\[)\_ng(host(.+?)([^\]]+?))([^\]\s\>])*", "nghost", html)
     html = re.sub("(?!\[)\_ng(content([^\]]+?))([^\]\s\>])*", "ngcontent", html)
-    #html = re.sub("\<\!\-{2}(.|\n)+?\-{2}\>", "", html)
+    if remove_comments:
+        html = re.sub("\<\!\-{2}(.|\n)+?\-{2}\>", "", html)
     return html.replace("*", "asteriks-")
 
-def normalize_html(html: str) -> BeautifulSoup:
-    html = normalize_angular(html)
+def normalize_html(html: str, remove_comments = False) -> BeautifulSoup:
+    html = normalize_angular(html, remove_comments)
     html = BeautifulSoup(html, "lxml")
     remove_styles_scripts(html)
+    remove_svg(html)
+    return html
+
+def normalize_result_html(html: str, remove_comments = False) -> BeautifulSoup:
+    html = normalize_angular(html, remove_comments)
+    html = BeautifulSoup(html, "html.parser")
+    remove_styles_scripts(html)
+    remove_svg(html)
     return html
 
 def remove_styles_scripts(html: BeautifulSoup):
-    for tag in html(["style", "script"]):
+    for tag in html(["style", "script", "link", "meta"]):
         tag.extract()
 
+def remove_svg(html: BeautifulSoup):
+    for tag in html(["svg"]):
+        tag.extract()
 
 def get_xml(soup: BeautifulSoup) -> str:
     return etree.tostring(h.fromstring(soup.prettify()))

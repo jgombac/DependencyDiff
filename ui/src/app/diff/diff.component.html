@@ -1,0 +1,86 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <td *ngIf="data.old_screenshot != '' || data.old_html != ''">Prej</td>
+        <td *ngIf="data.new_screenshot != '' || data.new_html != ''">Potem</td>
+        <td *ngIf="data.old_screenshot != '' && data.new_screenshot != ''">Razlika</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div *ngIf="data.old_screenshot != ''">
+            <img src="data:image/png;base64,{{data.old_screenshot}}" alt="">
+          </div>
+        </td>
+        <td>
+          <div *ngIf="data.new_screenshot != ''">
+            <img src="data:image/png;base64,{{data.new_screenshot}}" alt="">
+          </div>
+        </td>
+        <td>
+          <div *ngIf="data.old_screenshot != '' && data.new_screenshot != ''">
+            <div class="diff-image-container">
+              <img class="diff-image" src="data:image/png;base64,{{data.old_screenshot}}" alt="">
+              <img class="diff-image" src="data:image/png;base64,{{data.new_screenshot}}" alt="">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div *ngIf="data.old_html != ''">
+            <div>Prej</div>
+            <div>
+              <pre>{{data.old_html}}</pre>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div *ngIf="data.new_html != ''">
+            <div>Potem</div>
+            <div>
+              <pre>{{data.new_html}}</pre>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- 
+  <div class="images-container">
+    <div *ngIf="data.old_screenshot != ''">
+      <div>Prej</div>
+      <img src="data:image/png;base64,{{data.old_screenshot}}" alt="">
+    </div>
+    <div *ngIf="data.new_screenshot != ''">
+      <div>Potem</div>
+      <img src="data:image/png;base64,{{data.new_screenshot}}" alt="">
+    </div>
+
+    <div *ngIf="data.old_screenshot != '' && data.new_screenshot != ''">
+      <div>Razlika</div>
+      <div class="diff-image-container">
+        <img class="diff-image" src="data:image/png;base64,{{data.old_screenshot}}" alt="">
+        <img class="diff-image" src="data:image/png;base64,{{data.new_screenshot}}" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="images-container">
+    <div *ngIf="data.old_html != ''">
+      <div>Prej</div>
+      <div>
+        <pre>{{data.old_html}}</pre>
+      </div>
+    </div>
+    <div *ngIf="data.new_html != ''">
+      <div>Potem</div>
+      <div>
+        <pre>{{data.new_html}}</pre>
+      </div>
+    </div>
+  </div>
+</div> -->
