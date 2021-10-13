@@ -71,7 +71,7 @@ class Page(Base):
 
     contents = relationship("PageContent", back_populates="page")
 
-    actions = relationship("Action", back_populates="page")
+    actions = relationship("Action", lazy="dynamic", back_populates="page")
 
     events = relationship("Event", back_populates="page")
 

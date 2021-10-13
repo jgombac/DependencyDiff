@@ -8,7 +8,7 @@
 <h1>{{page.url}}</h1>
 <app-tabs>
   <app-tab [tabTitle]="'Razlike na strani: ' + pageCount ">
-    <div *ngFor="let element of Object.keys(pageDiffs); index as i">
+    <div *ngFor="let element of sortedKeys(pageDiffs); index as i">
       <div class="px-3 py-4 element">{{element}}</div>
       <div *ngFor="let diff of pageDiffs[element]; index as j" class="diff-container">
         <app-diff [data]="diff"></app-diff>
@@ -16,7 +16,7 @@
     </div>
   </app-tab>
   <app-tab [tabTitle]="'Razlike po akcijah: ' + actionCount ">
-    <div *ngFor="let element of Object.keys(actionDiffs); index as i">
+    <div *ngFor="let element of sortedKeys(actionDiffs); index as i">
       <div class="px-3 py-4 element">{{element}}</div>
       <div *ngFor="let diff of actionDiffs[element]; index as j" class="diff-container">
         <app-diff [data]="diff"></app-diff>
@@ -24,7 +24,7 @@
     </div>
   </app-tab>
   <app-tab [tabTitle]="'Razlike po obrazcih: ' + formCount ">
-    <div *ngFor="let element of Object.keys(formDiffs); index as i">
+    <div *ngFor="let element of sortedKeys(formDiffs); index as i">
       <div class="px-3 py-4 element">{{element}}</div>
       <div *ngFor="let diff of formDiffs[element]; index as j" class="diff-container">
         <app-diff [data]="diff"></app-diff>

@@ -90,6 +90,12 @@ export class PageComponent implements OnInit, OnChanges {
     return destination;
   }
 
+  sortedKeys (obj) {
+    let arr = Object.keys(obj);
+    arr.sort();
+    return arr;
+  }
+
   close () {
     this.closePage.emit(true);
   }

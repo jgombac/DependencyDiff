@@ -167,6 +167,7 @@ def get_diffs(id):
     diffs = list(map(lambda x: {
         "id": x.id,
         "action": x.action.type if x.action else None,
+        "action_element": x.action.element if x.action else None,
         "element": x.element,
         "old_screenshot": x.old_screenshot,
         "new_screenshot": x.new_screenshot,
@@ -174,10 +175,12 @@ def get_diffs(id):
         "new_html": normal_html(x.new_html) if x.new_html else x.new_html
     }, page_diffs + action_diffs))
 
-    # for diff in diffs:
-    #     diff["new_html"] = diff["new_html"].replace("https://www.fri.uni-lj.si", "https://fri.uni-lj.si")
-    #
-    # diffs = list(filter(lambda x: x["new_html"] != x["old_html"], diffs))
+    for diff in diffs:
+        diff["old_html"] = diff["old_html"].replace("https://fri.uni-lj.si", "http://www.fri.uni-lj.si").replace(
+            "https://www.fri.uni-lj.si", "http://www.fri.uni-lj.si")
+        diff["new_html"] = diff["new_html"].replace("https://fri.uni-lj.si", "http://www.fri.uni-lj.si").replace("https://www.fri.uni-lj.si", "http://www.fri.uni-lj.si")
+
+    diffs = list(filter(lambda x: x["new_html"] != x["old_html"], diffs))
 
     return dumps(diffs)
 

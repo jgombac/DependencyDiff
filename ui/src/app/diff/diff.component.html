@@ -1,29 +1,32 @@
-<div>
-  <table>
-    <thead>
-      <tr>
+<div class="diff-wrapper">
+  <div *ngIf="data.action != null">
+    <div class="action-element">{{data.action}}: {{data.action_element}}</div>
+  </div>
+  <table class="w-100 d-block">
+    <thead class="w-100">
+      <tr class="w-100">
         <td *ngIf="data.old_screenshot != '' || data.old_html != ''">Prej</td>
         <td *ngIf="data.new_screenshot != '' || data.new_html != ''">Potem</td>
         <td *ngIf="data.old_screenshot != '' && data.new_screenshot != ''">Razlika</td>
       </tr>
     </thead>
-    <tbody>
-      <tr>
+    <tbody class="w-100">
+      <tr class="w-100">
         <td>
           <div *ngIf="data.old_screenshot != ''">
-            <img src="data:image/png;base64,{{data.old_screenshot}}" alt="">
+            <img class="mw-40" src="data:image/png;base64,{{data.old_screenshot}}" alt="">
           </div>
         </td>
         <td>
           <div *ngIf="data.new_screenshot != ''">
-            <img src="data:image/png;base64,{{data.new_screenshot}}" alt="">
+            <img class="mw-40" src="data:image/png;base64,{{data.new_screenshot}}" alt="">
           </div>
         </td>
         <td>
           <div *ngIf="data.old_screenshot != '' && data.new_screenshot != ''">
             <div class="diff-image-container">
-              <img class="diff-image" src="data:image/png;base64,{{data.old_screenshot}}" alt="">
-              <img class="diff-image" src="data:image/png;base64,{{data.new_screenshot}}" alt="">
+              <img class="mw-40" class="diff-image" src="data:image/png;base64,{{data.old_screenshot}}" alt="">
+              <img class="mw-40" class="diff-image" src="data:image/png;base64,{{data.new_screenshot}}" alt="">
             </div>
           </div>
         </td>
@@ -33,7 +36,7 @@
           <div *ngIf="data.old_html != ''">
             <div>Prej</div>
             <div>
-              <pre>{{data.old_html}}</pre>
+              <pre class="mw-40">{{data.old_html}}</pre>
             </div>
           </div>
         </td>
@@ -41,7 +44,7 @@
           <div *ngIf="data.new_html != ''">
             <div>Potem</div>
             <div>
-              <pre>{{data.new_html}}</pre>
+              <pre class="mw-40">{{data.new_html}}</pre>
             </div>
           </div>
         </td>

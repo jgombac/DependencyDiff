@@ -20,5 +20,6 @@
   "forms": [
   ],
   "repeatable_elements": [],
-  "clean_text_elements": []
+  "clean_text_elements": [],
+  "leave_repeatable": 0
 }

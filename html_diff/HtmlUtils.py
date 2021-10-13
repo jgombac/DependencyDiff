@@ -20,10 +20,11 @@ def normalize_html(html: str, remove_comments = False) -> BeautifulSoup:
     return html
 
 def normalize_result_html(html: str, remove_comments = False) -> BeautifulSoup:
-    html = normalize_angular(html, remove_comments)
+    #html = normalize_angular(html, remove_comments)
+    html = re.sub("\<\!\-{2}(.|\n)+?\-{2}\>", "", html)
     html = BeautifulSoup(html, "html.parser")
     remove_styles_scripts(html)
-    remove_svg(html)
+    #remove_svg(html)
     return html
 
 def remove_styles_scripts(html: BeautifulSoup):

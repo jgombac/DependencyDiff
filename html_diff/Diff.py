@@ -1,4 +1,4 @@
-from database.Database import get_session, Commit, Page, PageContent, PageDiff, Project, Diff as DbDiff
+from database.Database import get_session, Commit, Page, PageContent, PageDiff, Project, Diff as DbDiff, Action
 from project.Config import Config
 from project.Git import Git
 from html_diff.Compare import Compare
@@ -30,7 +30,18 @@ class Diff:
 
         self.project = Project.get_or_create(self.db, self.project_config.project_name)
         self.git = Git(self.project_config)
-        self.commits = [x.hexsha for x in self.git.get_relevant_commits(self.project_config.min_changes) if x.hexsha in self.project_config.processed_commits and x.hexsha not in self.project_config.diffed_commits]
+
+        self.commits = []
+        current = None
+        for x in self.git.get_relevant_commits(self.project_config.min_changes):
+            # if x.hexsha in self.project_config.diffed_commits:
+            #     current = x.hexsha
+            if x.hexsha in self.project_config.processed_commits and x.hexsha not in self.project_config.diffed_commits:
+                self.commits.append(x.hexsha)
+
+        # if current is not None:
+        #     self.commits.insert(0, current)
+
         if not self.commits:
             return False
 
@@ -107,8 +118,8 @@ class Diff:
 
 
                     visited = False
-                    for old_action in old.actions:
-                        for new_action in new.actions:
+                    for old_action in self.windowed_query(old.actions, Action.id, 1000):
+                        for new_action in self.windowed_query(new.actions, Action.id, 10):
                             if old_action.element == new_action.element and old_action.type == new_action.type:
                                 old_action_content = old_action.content
                                 new_action_content = new_action.content
@@ -116,7 +127,6 @@ class Diff:
                                 if old_content != old_action_content or new_content != new_action_content:
                                     exists = DbDiff.exists(self.db, old.id, new.id, new_action.id)
                                     if not exists:
-                                        print("diff action")
                                         compare_result = Compare.compare(old_action_content, new_action_content)
                                         if compare_result:
                                             element_diff = Compare.extract_differences(compare_result)
@@ -131,6 +141,27 @@ class Diff:
                                                                          new_diff[1], old_diff[0], new_diff[0], new_action.id)
 
         return True
+
+    def windowed_query(self, q, column, windowsize):
+        """"Break a Query into chunks on a given column."""
+
+        single_entity = q.is_single_entity
+        q = q.add_column(column).order_by(column)
+        last_id = None
+
+        while True:
+            subq = q
+            if last_id is not None:
+                subq = subq.filter(column > last_id)
+            chunk = subq.limit(windowsize).all()
+            if not chunk:
+                break
+            last_id = chunk[-1][-1]
+            for row in chunk:
+                if single_entity:
+                    yield row[0]
+                else:
+                    yield row[0:-1]
 
     def setup_project(self, version: str) -> bool:
         project = self.deploy_version(version)

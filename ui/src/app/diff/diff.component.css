@@ -6,6 +6,19 @@ pre {
   white-space: break-spaces;
 }
 
+.action-element {
+  padding: 14px;
+  background: antiquewhite;
+}
+
+.diff-wrapper {
+  width: 100%;
+}
+
+.mw-40 {
+  max-width: 450px;
+}
+
 .images-container {
   display: flex;
 }
